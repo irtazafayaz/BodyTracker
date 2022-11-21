@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1955DD77292BCDFA00A1EA71 /* BodyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD76292BCDFA00A1EA71 /* BodyTrackerApp.swift */; };
+		1955DD79292BCDFA00A1EA71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD78292BCDFA00A1EA71 /* ContentView.swift */; };
+		1955DD7B292BCE0000A1EA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1955DD7A292BCE0000A1EA71 /* Assets.xcassets */; };
+		1955DD7E292BCE0000A1EA71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1955DD7D292BCE0000A1EA71 /* Preview Assets.xcassets */; };
+		1955DD86292BD17300A1EA71 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD85292BD17300A1EA71 /* ARViewContainer.swift */; };
+		1955DD88292BD43700A1EA71 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD87292BD43700A1EA71 /* SkeletonJoint.swift */; };
+		1955DD8A292BD47700A1EA71 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD89292BD47700A1EA71 /* SkeletonBone.swift */; };
+		1955DD8C292BD5BD00A1EA71 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD8B292BD5BD00A1EA71 /* Bones.swift */; };
+		1955DD8E292BDB6700A1EA71 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955DD8D292BDB6700A1EA71 /* BodySkeleton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1955DD73292BCDFA00A1EA71 /* BodyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1955DD76292BCDFA00A1EA71 /* BodyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackerApp.swift; sourceTree = "<group>"; };
+		1955DD78292BCDFA00A1EA71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1955DD7A292BCE0000A1EA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1955DD7D292BCE0000A1EA71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1955DD84292BD12900A1EA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1955DD85292BD17300A1EA71 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		1955DD87292BD43700A1EA71 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		1955DD89292BD47700A1EA71 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		1955DD8B292BD5BD00A1EA71 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		1955DD8D292BDB6700A1EA71 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1955DD70292BCDFA00A1EA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1955DD6A292BCDFA00A1EA71 = {
+			isa = PBXGroup;
+			children = (
+				1955DD75292BCDFA00A1EA71 /* BodyTracker */,
+				1955DD74292BCDFA00A1EA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1955DD74292BCDFA00A1EA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1955DD73292BCDFA00A1EA71 /* BodyTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1955DD75292BCDFA00A1EA71 /* BodyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1955DD84292BD12900A1EA71 /* Info.plist */,
+				1955DD76292BCDFA00A1EA71 /* BodyTrackerApp.swift */,
+				1955DD78292BCDFA00A1EA71 /* ContentView.swift */,
+				1955DD7A292BCE0000A1EA71 /* Assets.xcassets */,
+				1955DD7C292BCE0000A1EA71 /* Preview Content */,
+				1955DD85292BD17300A1EA71 /* ARViewContainer.swift */,
+				1955DD87292BD43700A1EA71 /* SkeletonJoint.swift */,
+				1955DD89292BD47700A1EA71 /* SkeletonBone.swift */,
+				1955DD8B292BD5BD00A1EA71 /* Bones.swift */,
+				1955DD8D292BDB6700A1EA71 /* BodySkeleton.swift */,
+			);
+			path = BodyTracker;
+			sourceTree = "<group>";
+		};
+		1955DD7C292BCE0000A1EA71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1955DD7D292BCE0000A1EA71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1955DD72292BCDFA00A1EA71 /* BodyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1955DD81292BCE0000A1EA71 /* Build configuration list for PBXNativeTarget "BodyTracker" */;
+			buildPhases = (
+				1955DD6F292BCDFA00A1EA71 /* Sources */,
+				1955DD70292BCDFA00A1EA71 /* Frameworks */,
+				1955DD71292BCDFA00A1EA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyTracker;
+			productName = BodyTracker;
+			productReference = 1955DD73292BCDFA00A1EA71 /* BodyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1955DD6B292BCDFA00A1EA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1955DD72292BCDFA00A1EA71 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1955DD6E292BCDFA00A1EA71 /* Build configuration list for PBXProject "BodyTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1955DD6A292BCDFA00A1EA71;
+			productRefGroup = 1955DD74292BCDFA00A1EA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1955DD72292BCDFA00A1EA71 /* BodyTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1955DD71292BCDFA00A1EA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1955DD7E292BCE0000A1EA71 /* Preview Assets.xcassets in Resources */,
+				1955DD7B292BCE0000A1EA71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1955DD6F292BCDFA00A1EA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1955DD8E292BDB6700A1EA71 /* BodySkeleton.swift in Sources */,
+				1955DD79292BCDFA00A1EA71 /* ContentView.swift in Sources */,
+				1955DD8C292BD5BD00A1EA71 /* Bones.swift in Sources */,
+				1955DD8A292BD47700A1EA71 /* SkeletonBone.swift in Sources */,
+				1955DD77292BCDFA00A1EA71 /* BodyTrackerApp.swift in Sources */,
+				1955DD86292BD17300A1EA71 /* ARViewContainer.swift in Sources */,
+				1955DD88292BD43700A1EA71 /* SkeletonJoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1955DD7F292BCE0000A1EA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1955DD80292BCE0000A1EA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1955DD82292BCE0000A1EA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WRZE2A3PKZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to the camera to enable Augmented Reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irtazafayaz.BodyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1955DD83292BCE0000A1EA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WRZE2A3PKZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs to the camera to enable Augmented Reality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irtazafayaz.BodyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1955DD6E292BCDFA00A1EA71 /* Build configuration list for PBXProject "BodyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1955DD7F292BCE0000A1EA71 /* Debug */,
+				1955DD80292BCE0000A1EA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1955DD81292BCE0000A1EA71 /* Build configuration list for PBXNativeTarget "BodyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1955DD82292BCE0000A1EA71 /* Debug */,
+				1955DD83292BCE0000A1EA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1955DD6B292BCDFA00A1EA71 /* Project object */;
+}
