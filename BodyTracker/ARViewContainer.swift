@@ -35,6 +35,7 @@ struct ARViewContainer: UIViewRepresentable {
 extension ARView: ARSessionDelegate {
     
     func setupForBodyTracking() {
+        // Enabling body tracking by starting the session
         let configuartion = ARBodyTrackingConfiguration()
         self.session.run(configuartion)
         self.session.delegate = self
